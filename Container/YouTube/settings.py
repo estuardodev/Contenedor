@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-)3o1_j-2z^x1le!*qvae)zf=*6c$*xet3kun^em+u5$^0af5mu'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['test.estuardodev.com', 'localhost']
 CSRF_TRUSTED_ORIGINS = ['https://test.estuardodev.com']
@@ -81,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'youtube',
         'USER': 'root',
-        'PASSWORD': '',
+        'PASSWORD': 'Video_DB_YT',
         'HOST': 'localhost',
         'PORT': '3306'
     }
